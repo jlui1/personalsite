@@ -26,12 +26,14 @@ margin: 0;
 
 }
 .top-margin > .titletext {
-	text-align: center;
+	width: 12%;
 	color: black;
+	text-align: center;
 	display: inline-block;
-	margin: 100;
 	font-family: 'Playfair Display', serif;
+	font-size: 40px;
 	text-decoration: none;
+	
 }
 /* NAV BAR */
 
