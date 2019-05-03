@@ -12,7 +12,7 @@
   margin-left: auto;
   margin-right: auto;
   width: 15%;
-  font-family: 'Playfair Display', serif;
+  font-family: 'Playfair Display', serif ;
   font-size: 30px;
 
 }
@@ -31,15 +31,6 @@ margin: 0;
 	padding-top: 50px;
 	padding-bottom: 35px;
 }
-
-
-
-
-
-
-
-
-
 
 
 .circular-center-image {
@@ -61,27 +52,31 @@ margin: 0;
 
 
 @keyframes spin {
-  100% {transform: rotate(1turn); }
+  100% {transform: rotate(2turn); }
 }
 
 
 
 .top-margin {
-	background-color: #98C1EF; 
+	background-image: linear-gradient(white, #98C1EF );
+	/*background-color: #98C1EF; */
 	width: 10000px;
 	height: 100px;
 
 }
 .top-margin > .titletext {
 	width: 12%;
-	color: black;
+	color: white;
 	text-align: center;
 	display: inline-block;
-	font-family: 'Playfair Display', serif;
+	font-family: 'Great Vibes', cursive;
 	font-size: 40px;
 	text-decoration: none;
 	
+	animation-play-state: paused; 
 }
+/* top margin animations*/
+
 /* NAV BAR */
 
 .nav-bar {
@@ -130,6 +125,7 @@ margin: 0;
 	padding-bottom: 50px;
 }
 .footer {
+	background-image: linear-gradient(#98C1EF,white );
 	background-color: #98C1EF; 
 	width: 10000px;
 	height: 75px;
@@ -137,8 +133,8 @@ margin: 0;
 
 .footer > .elem {
 
-	width: 19.5%;
-	margin-left: 100px;
+	width: 50%;
+	margin-left: 10px;
 
 }
 
@@ -146,8 +142,9 @@ margin: 0;
 
 
 .dropbtn {
-  background-color: #d0d4d8;
-  color: white;
+  /*background-color: #d0d4d8;*/
+  background-image: linear-gradient(#98C1EF,white );
+  color: SlateGray;
   padding: 16px;
   font-size: 16px;
   font-family: 'Playfair Display', serif;
@@ -178,7 +175,7 @@ margin: 0;
   font-family: 'Playfair Display', serif;
 }
 
-.dropdown-content a:hover {background-color: #ddd;}
+.dropdown-content a:hover {background-color: #c9daed;}
 
 .dropdown:hover .dropdown-content {display: block;}
 
