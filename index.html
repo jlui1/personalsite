@@ -14,15 +14,26 @@
 </head>
 <body>
 	<div class=top-margin> 
-		<p class = "titletext"> JULIA LUI </p>
+		<p class = "titletext" id = 'top'> JULIA LUI </p>
+    </div>
 	</div>
 	 <div class=nav-bar>
-    	<a href='nav_bar.html' class=element> Home </a>  
-    	<a href='nav_bar.html' class=element> Education </a>
-    	<a href='nav_bar.html' class=element> Experiences </a>
-    	<a href='nav_bar.html' class=element> Map </a>
-    	<a href='nav_bar.html' class=element> Contact </a>
+    	
+        <div class="dropdown">
+          <button class="dropbtn" onclick="location.href='#top'" >Home</button>
+          <div class="dropdown-content">
+                <a href="#education">Education</a>
+                <a href="#experiences">Experiences</a>
+                <a href="#map">Map</a>
+                <a href="#contact">Contact</a>
+              </div>
+        </div> 
+    	<a href='#education' class=element> Education </a>
+    	<a href='#experiences' class=element> Experiences </a>
+    	<a href='#map' class=element> Map </a>
+    	<a href='#contact' class=element> Contact </a>
     </div>
+
 
     <div class="circular" >
     <img src = "fbprofilejrl.jpg" width = "150" height="150" alt = "headshot" 
@@ -30,20 +41,73 @@
     </div>	
 
     
-    <div class=content>
-    	<p> Introduction Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, malesuada et nunc in, maximus dictum magna. Cras vitae porttitor tellus, ac aliquet urna. Etiam purus urna, consectetur eu quam vitae, eleifend scelerisque magna. Donec condimentum, nunc vel elementum blandit, lacus neque venenatis nisi.</p>
-
-    	<div> 
-    	</div>
+    <div class=padding>
     	
-    		<p class = "center-title"> Education </p>
-    	<p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, malesuada et nunc in, maximus dictum magna. Cras vitae porttitor tellus, ac aliquet urna. Etiam purus urna, consectetur eu quam vitae, eleifend scelerisque magna. Donec condimentum, nunc vel elementum blandit, lacus neque venenatis nisi.</p>
-    	<p> Introduction Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, malesuada et nunc in, maximus dictum magna. Cras vitae porttitor tellus, ac aliquet urna. Etiam purus urna, consectetur eu quam vitae, eleifend scelerisque magna. Donec condimentum, nunc vel elementum blandit, lacus neque venenatis nisi.</p>
+    	<p id = 'intro' class = content> Introduction Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, malesuada et nunc in, maximus dictum magna. Cras vitae porttitor tellus, ac aliquet urna. Etiam purus urna, consectetur eu quam vitae, eleifend scelerisque magna. Donec condimentum, nunc vel elementum blandit, lacus neque venenatis nisi. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, </p>
+    	
+    <div>
+    <div class = content id = 'education'>
+            <div class = header_padding>
+            <p  class = "center-title"> Education </p>
+            </div>
+
+    	<p>  Education CMU blah Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, malesuada et nunc in, maximus dictum magna. Cras vitae porttitor tellus, ac aliquet urna. Etiam purus urna, consectetur eu quam vitae, eleifend scelerisque magna. Donec condimentum, nunc vel elementum blandit, lacus neque venenatis nisi.</p>
+    	<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, malesuada et nunc in, maximus dictum magna. Cras vitae porttitor tellus, ac aliquet urna. Etiam purus urna, consectetur eu quam vitae, eleifend scelerisque magna. Donec condimentum, nunc vel elementum blandit, lacus neque venenatis nisi.</p>
+    	<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, malesuada et nunc in, maximus dictum magna. Cras vitae porttitor tellus, ac aliquet urna. Etiam purus urna, consectetur eu quam vitae, eleifend scelerisque magna. Donec condimentum, nunc vel elementum blandit, lacus neque venenatis nisi.</p>
+    	<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, malesuada et nunc in, maximus dictum magna. Cras vitae porttitor tellus, ac aliquet urna. Etiam purus urna, consectetur eu quam vitae, eleifend scelerisque magna. Donec condimentum, nunc vel elementum blandit, lacus neque venenatis nisi.</p>
+    	<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, malesuada et nunc in, maximus dictum magna. Cras vitae porttitor tellus, ac aliquet urna. Etiam purus urna, consectetur eu quam vitae, eleifend scelerisque magna. Donec condimentum, nunc vel elementum blandit, lacus neque venenatis nisi.</p>
+    </div>
+    <div class = content id = 'experiences'>
+    		<div class = header_padding>
+    		<p  class = "center-title"> Experiences </p>
+    	    </div>
+    	<p>  Experiences and such research etc blah Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, malesuada et nunc in, maximus dictum magna. Cras vitae porttitor tellus, ac aliquet urna. Etiam purus urna, consectetur eu quam vitae, eleifend scelerisque magna. Donec condimentum, nunc vel elementum blandit, lacus neque venenatis nisi.</p>
+    	<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, malesuada et nunc in, maximus dictum magna. Cras vitae porttitor tellus, ac aliquet urna. Etiam purus urna, consectetur eu quam vitae, eleifend scelerisque magna. Donec condimentum, nunc vel elementum blandit, lacus neque venenatis nisi.</p>
+    	<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, malesuada et nunc in, maximus dictum magna. Cras vitae porttitor tellus, ac aliquet urna. Etiam purus urna, consectetur eu quam vitae, eleifend scelerisque magna. Donec condimentum, nunc vel elementum blandit, lacus neque venenatis nisi.</p>
+    	<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, malesuada et nunc in, maximus dictum magna. Cras vitae porttitor tellus, ac aliquet urna. Etiam purus urna, consectetur eu quam vitae, eleifend scelerisque magna. Donec condimentum, nunc vel elementum blandit, lacus neque venenatis nisi.</p>
+    	<p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, malesuada et nunc in, maximus dictum magna. Cras vitae porttitor tellus, ac aliquet urna. Etiam purus urna, consectetur eu quam vitae, eleifend scelerisque magna. Donec condimentum, nunc vel elementum blandit, lacus neque venenatis nisi.</p>
+    </div>
+
+    <div class = content id = 'map'>
+        <div class = header_padding>
+            <p  class = "center-title">Map </p>
+            </div>
+            <p>  I plan to have a map with different pin point locations similar to this one, and eventually make it interactive Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi et elit sit amet ipsum tempor efficitur. Praesent metus metus, malesuada et nunc in, maximus dictum magna. Cras vitae porttitor tellus, ac aliquet urna. Etiam purus urna, consectetur eu quam vitae, eleifend scelerisque magna. Donec condimentum, nunc vel elementum blandit, lacus neque venenatis nisi.</p>
+             <div>
+            <img src = "map_placeholder.jpg"  alt = "fake map" 
+                class = center-image>
+            </div>  
     </div>
 
     <script type="text/javascript" src="interactions.js"></script>    <!-- Insert JQuery Script -->
     
+    
+
+     <div class = content id = 'contact' >
+        <div class = header_padding>
+            <p class = "center-title"> Contact </p>
+            </div>
+            <p>  Please feel free to contact me!</p>
+            <div>
+                <form action="mailto:julialui11@gmail.com" method="post" enctype="text/plain">
+                    Name:<br>
+                    <input type="text" name="name"><br>
+                    Message:<br>
+                    <input type="text" name="message" style="height: 150px; "><br><br>
+                    <input type="submit" value="Send">
+                    <input type="reset" value="Reset">
+                </form>
+            </div>
+              
+    </div>
+
+
 </body>
+
+<div class=footer > 
+       <a href="https://www.linkedin.com/in/julia-lui-043ba6148/" class = elem target="_blank" > <img src="linkedin.png" width="25" height="25"  title="LinkedIn" alt="LinkedIn"> </a> 
+       <a href="https://www.facebook.com/julia.lui123" class = elem target="_blank" > <img src="facebook.png" width="25" height="25" title="facebook" alt="facebook"> </a> 
+</div>
 
 
 
